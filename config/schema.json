@@ -1,0 +1,6 @@
+{
+    "A": {"type": "float", "allow_unknown": false, "empty": false, "minlength": 1},
+    "B": {"type": "float", "allow_unknown": false, "empty": false, "minlength": 1},
+    "C": {"type": "float", "allow_unknown": false, "empty": false, "minlength": 1},
+    "D": {"type": "float", "allow_unknown": false, "empty": false, "minlength": 1}
+}
