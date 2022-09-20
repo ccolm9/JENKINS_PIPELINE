@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage("build") {
             steps {
-              
+                sh "python utils/test_import_xlsx.py"
             }
         }
         stage("test") {
             steps {
-               
+                sh "pytest"
             }
         }
         stage("deploy") {
             steps {
-              
+                sh "python main.py"
             }
         }
     }   

@@ -97,3 +97,6 @@ class Import:
 
         return feature_df
 
+if __name__ == "__main__":
+    data_read = Import()
+

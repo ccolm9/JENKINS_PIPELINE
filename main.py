@@ -3,10 +3,10 @@ import pandas as pd
 import os
 import glob
 
-# if __name__ == "main":
+if __name__ == "__main__":
 
-DATA_PATH = "data/"
+    DATA_PATH = "data/"
 
-data_reader = Import()
-result = data_reader.ingest_feature_data(data_path=DATA_PATH)
-print(result.head())
+    data_reader = Import()
+    result = data_reader.ingest_feature_data(data_path=DATA_PATH)
+    print(result.head())
