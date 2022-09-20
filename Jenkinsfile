@@ -13,7 +13,7 @@ pipeline {
         }
         stage("deploy") {
             steps {
-                sh "python main.py"
+                sh "python -u main.py"
             }
         }
     }   
